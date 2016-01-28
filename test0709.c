@@ -32,7 +32,7 @@ void hello(){
 }
 
 void intTest(unsigned int i){
-	logMsg("Hello! %d\n",FPGA_REG_READ32(i,0),0,0,0,0,0);
+	logMsg("Hello! 0x%08x\n",FPGA_REG_READ32(i,0),0,0,0,0,0);
 }
 
 int test0709(){
