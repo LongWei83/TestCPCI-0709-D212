@@ -15,3 +15,5 @@ inet on ethernet : 192.168.0.99:ffffff00
 host inet : 192.158.0.88
 user : RCS
 target name : cpci6200
+
+run test0709() function to test the interruption of the CPCI0709-D212 FPGA board.
